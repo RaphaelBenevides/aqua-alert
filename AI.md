@@ -32,18 +32,23 @@ Este documento resume as consultas feitas à inteligência artificial durante o 
 
 ## 3. Como as orientações foram aproveitadas
 
-As consultas sobre APIs ajudaram a entender opções de fontes de dados meteorológicos. As orientações sobre Vercel e Git foram usadas como referência para dúvidas de publicação e versionamento. Na etapa final, o grupo solicitou uma avaliação geral do site e uma comparação com os requisitos do PDF da Global Solution.
+Durante o desenvolvimento do AQUA ALERT, o grupo utilizou a IA como apoio para esclarecer dúvidas e buscar sugestões sobre algumas funcionalidades do projeto.
 
-**Registro complementar:** o rascunho anterior deste documento também descrevia sugestões da IA sobre organização do projeto e exemplos de implementação. O grupo deve conferir o histórico e registrar essas contribuições caso tenham sido utilizadas. Este resumo não deve ser interpretado como um registro completo de todas as interações.
+As consultas ajudaram a entender melhor a organização das pastas e componentes, seguindo como referência os projetos trabalhados em aula. Também foram discutidas questões relacionadas à integração com a MockAPI, utilizada no cadastro e gerenciamento das leituras (Service.ts), e à Open-Meteo, utilizada para consultar informações de chuva (ClimaService.ts).
+
+Outras orientações envolveram a utilização dos hooks useLeituras, useFormLeitura e useClima, além de ajustes pontuais na navegação, no formulário e na exibição dos dados meteorológicos.
+
+As sugestões aproveitadas foram revisadas pelo grupo considerando o conteúdo das aulas e as necessidades do sistema. A IA também foi consultada para esclarecer dúvidas sobre Git, publicação na Vercel e verificação dos requisitos do projeto.
 
 ## 4. Verificação pelo grupo
 
 - O grupo registrou testes do CRUD com a MockAPI, incluindo o cadastro de três leituras: Normal, Atenção e Perigo.
 - Também foram registradas a edição de uma leitura, com mudança de Normal para Perigo, e a exclusão de uma leitura de teste.
-- Para a revisão final, os requisitos do PDF devem ser conferidos diretamente no projeto, pois uma avaliação da IA pode deixar passar detalhes.
+
+Na etapa final, o grupo também verificou o funcionamento do site após a publicação na Vercel. Foram realizados testes de cadastro e exclusão de leituras para confirmar se as funcionalidades continuavam funcionando corretamente na versão publicada.
 
 ## 5. Análise crítica
 
 - **Benefícios:** esclarecimento de dúvidas técnicas, indicação de documentação e serviços úteis e apoio na identificação de pontos a revisar.
 - **Limitações:** as respostas são sugestões e podem não corresponder exatamente à configuração do projeto ou a todos os requisitos da atividade.
-- **Cuidados:** conferir as orientações na documentação oficial, verificar o funcionamento do site e manter o registro do uso de IA fiel às atividades realmente realizadas.
+- **Dificuldades:** Durante o desenvolvimento, algumas orientações precisaram ser analisadas e adaptadas à estrutura do projeto e ao conteúdo trabalhado nas aulas. Também surgiram dificuldades na utilização do Git, principalmente na configuração do repositório e na execução de alguns comandos. Nessas situações, as consultas à IA ajudaram a entender os erros e buscar possíveis soluções, que foram verificadas pelo grupo antes de serem aplicadas.
