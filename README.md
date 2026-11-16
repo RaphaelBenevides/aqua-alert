@@ -67,7 +67,7 @@ src/
 ├── utils/         → LÓGICA DE NEGÓCIO: risco e validação (risco.ts), conversão da chuva (clima.ts)
 ├── hooks/         → CUSTOM HOOKS: useLeituras, useFormLeitura e useClima
 ├── components/    → CAMADA VISUAL: 13 componentes reutilizáveis
-└── pages/         → páginas: Home, Leituras, FormularioLeitura, Sobre
+└── pages/         → páginas: Home, Leituras, FormularioLeitura, Sobre e NaoEncontrada (404)
 ```
 
 **Páginas:** Home, Leituras, FormularioLeitura (cadastro/edição), Sobre e NaoEncontrada (404).
@@ -83,6 +83,8 @@ src/
 - Conta gratuita no [MockAPI](https://mockapi.io)
 
 ## Configurando a API (MockAPI)
+
+A API do projeto já está configurada. Os passos abaixo só são necessários para usar uma base própria.
 
 1. Entre em https://mockapi.io e crie um projeto (ex.: `aqua-alert`, prefixo `/api/v1`).
 2. Crie um recurso chamado **`leituras`** com os campos:
