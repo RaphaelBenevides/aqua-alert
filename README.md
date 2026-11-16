@@ -11,7 +11,7 @@ Aplicação web da Global Solution FIAP 2026.2 (CitizenTech) para as disciplinas
 | **Cidadão beneficiado** | Moradores, motoristas e comerciantes de áreas sujeitas a alagamento |
 | **Problema, em uma frase** | As pessoas não sabem quando o nível da água está subindo na sua região e são pegas de surpresa pelas enchentes. |
 | **Como funciona** | Um sensor mede o nível da água e a chuva (e a aplicação também consulta a chuva real pela API Open-Meteo); o sistema classifica o risco em Normal, Atenção ou Perigo; a aplicação web mostra os níveis, os alertas e o histórico de ocorrências. |
-| **O que cada parte faz** | Sensor (Edge): mede água e chuva · Python: interpreta e classifica o risco · Web (este repositório): interface e interação com o cidadão · demais disciplinas: _[completar]_ |
+| **O que cada parte faz** | Sensor (Edge): mede água e chuva · Python: interpreta e classifica o risco · Web (este repositório): interface e interação com o cidadão · Matemática: modela a subida do nível da água ao longo do tempo, usando limites, derivadas para calcular a taxa de variação e integrais para determinar o aumento acumulado · demais disciplinas: _[completar]_ |
 | **Link do repositório** | https://github.com/RaphaelBenevides/aqua-alert (privado) |
 | **Link do deploy** | https://aqua-alert-sigma.vercel.app |
 | **Indicador de impacto** | Número de alertas emitidos antes de o ponto atingir o estado de Perigo; tempo de antecedência do aviso. |
